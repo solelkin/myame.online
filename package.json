@@ -20,6 +20,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@babel/core": "^7.19.3",
     "@react-three/drei": "^9.32.3",
     "@react-three/fiber": "^8.8.4",
     "glsl-random": "^0.0.5",
@@ -29,12 +30,13 @@
     "react-dom": "^18.2.0",
     "three": "^0.144.0",
     "three-stdlib": "^2.15.0",
+    "webpack": "^5.74.0",
     "zustand": "^4.1.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.3.0",
     "autoprefixer": "^10.4.2",
-    "eslint": "^8.23.0",
+    "eslint": "^8.25.0",
     "eslint-config-next": "^12.3.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-tailwind": "^0.2.1",
